@@ -1,0 +1,393 @@
+/* Basic Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8ff;
+    color: #172b49;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5eaf2;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0866ff;
+}
+
+.home-link {
+    color: #172b49;
+    font-size: 14px;
+}
+
+.home-link:hover {
+    color: #0866ff;
+}
+
+
+/* Login Section */
+
+.login-section {
+    min-height: calc(100vh - 135px);
+    padding: 50px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+/* Left Side */
+
+.login-left {
+    flex: 1;
+    max-width: 500px;
+}
+
+.small-heading {
+    color: #0866ff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.login-left h1 {
+    font-size: 43px;
+    line-height: 1.2;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.login-left > p {
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+/* Learning Box */
+
+.learning-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e5eaf2;
+}
+
+.learning-icon {
+    font-size: 30px;
+    background-color: #eaf2ff;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.learning-box h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.learning-box p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+
+/* Right Side */
+
+.login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Login Card */
+
+.login-card {
+    background-color: white;
+    width: 100%;
+    max-width: 430px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 35px rgba(23, 43, 73, 0.08);
+}
+
+
+/* Login Logo */
+
+.login-logo {
+    width: 55px;
+    height: 55px;
+    background-color: #eaf2ff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+/* Login Heading */
+
+.login-card h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.login-description {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+
+/* Form Labels */
+
+.login-card form > label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+/* Form Inputs */
+
+.login-card form > input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #d8e0ec;
+    border-radius: 7px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+/* Input Focus */
+
+.login-card form > input:focus {
+    border-color: #0866ff;
+    box-shadow: 0 0 0 3px #eaf2ff;
+}
+
+
+/* Form Options */
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+
+.remember-label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    color: #64748b;
+}
+
+.form-options a {
+    font-size: 12px;
+    color: #0866ff;
+}
+
+
+/* Login Button */
+
+.login-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #0866ff;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0052cc;
+}
+
+
+/* Signup Text */
+
+.signup-text {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.signup-text p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.signup-text a {
+    color: #0866ff;
+    font-weight: bold;
+}
+
+
+/* Back to Home */
+
+.back-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-home a {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.back-home a:hover {
+    color: #0866ff;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #172b49;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+
+/* Tablet Responsive */
+
+@media only screen and (max-width: 900px) {
+
+    .login-section {
+        padding: 40px 5%;
+        gap: 30px;
+    }
+
+    .login-left h1 {
+        font-size: 34px;
+    }
+
+    .login-card {
+        padding: 28px;
+    }
+
+}
+
+
+/* Mobile Responsive */
+
+@media only screen and (max-width: 650px) {
+
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .home-link {
+        font-size: 13px;
+    }
+
+    .login-section {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 35px 5%;
+        gap: 30px;
+    }
+
+    .login-left {
+        max-width: 100%;
+    }
+
+    .login-left h1 {
+        font-size: 32px;
+    }
+
+    .login-left > p {
+        font-size: 14px;
+    }
+
+    .login-right {
+        width: 100%;
+    }
+
+    .login-card {
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .login-card h2 {
+        font-size: 25px;
+    }
+
+}
+
+
+/* Small Mobile Responsive */
+
+@media only screen and (max-width: 380px) {
+
+    .navbar {
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .home-link {
+        font-size: 12px;
+    }
+
+    .login-left h1 {
+        font-size: 27px;
+    }
+
+    .login-card {
+        padding: 20px 16px;
+    }
+
+    .form-options {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+}

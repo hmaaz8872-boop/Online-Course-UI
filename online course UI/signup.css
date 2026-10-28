@@ -1,0 +1,391 @@
+/* Basic Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8ff;
+    color: #172b49;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5eaf2;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0866ff;
+}
+
+.home-link {
+    color: #172b49;
+    font-size: 14px;
+}
+
+.home-link:hover {
+    color: #0866ff;
+}
+
+
+/* Signup Section */
+
+.signup-section {
+    min-height: calc(100vh - 135px);
+    padding: 45px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+/* Left Side */
+
+.signup-left {
+    flex: 1;
+    max-width: 500px;
+}
+
+.small-heading {
+    color: #0866ff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.signup-left h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.signup-left > p {
+    color: #64748b;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+
+/* Benefit Boxes */
+
+.benefit-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5eaf2;
+    margin-bottom: 12px;
+}
+
+.benefit-icon {
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaf2ff;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.benefit-box h3 {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.benefit-box p {
+    color: #64748b;
+    font-size: 12px;
+}
+
+
+/* Right Side */
+
+.signup-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Signup Card */
+
+.signup-card {
+    background-color: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 35px rgba(23, 43, 73, 0.08);
+}
+
+
+/* Signup Logo */
+
+.signup-logo {
+    width: 50px;
+    height: 50px;
+    background-color: #eaf2ff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+
+/* Signup Heading */
+
+.signup-card h2 {
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.signup-description {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+
+/* Form Labels */
+
+.signup-card form > label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+
+/* Form Inputs */
+
+.signup-card form > input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d8e0ec;
+    border-radius: 7px;
+    font-size: 13px;
+    outline: none;
+}
+
+
+/* Input Focus */
+
+.signup-card form > input:focus {
+    border-color: #0866ff;
+    box-shadow: 0 0 0 3px #eaf2ff;
+}
+
+
+/* Terms and Conditions */
+
+.signup-card form > .terms-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #64748b;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.terms-label input {
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.terms-label a {
+    color: #0866ff;
+}
+
+
+/* Signup Button */
+
+.signup-button {
+    width: 100%;
+    padding: 13px;
+    background-color: #0866ff;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #0052cc;
+}
+
+
+/* Login Link */
+
+.login-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-text p {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.login-text a {
+    color: #0866ff;
+    font-weight: bold;
+}
+
+
+/* Back to Home */
+
+.back-home {
+    text-align: center;
+    margin-top: 17px;
+}
+
+.back-home a {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.back-home a:hover {
+    color: #0866ff;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #172b49;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+
+/* Tablet Responsive */
+
+@media only screen and (max-width: 900px) {
+
+    .signup-section {
+        padding: 40px 5%;
+        gap: 30px;
+    }
+
+    .signup-left h1 {
+        font-size: 34px;
+    }
+
+    .signup-card {
+        padding: 25px;
+    }
+
+}
+
+
+/* Mobile Responsive */
+
+@media only screen and (max-width: 650px) {
+
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .home-link {
+        font-size: 13px;
+    }
+
+    .signup-section {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 35px 5%;
+        gap: 30px;
+    }
+
+    .signup-left {
+        max-width: 100%;
+    }
+
+    .signup-left h1 {
+        font-size: 31px;
+    }
+
+    .signup-left > p {
+        font-size: 14px;
+    }
+
+    .signup-right {
+        width: 100%;
+    }
+
+    .signup-card {
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .signup-card h2 {
+        font-size: 24px;
+    }
+
+}
+
+
+/* Small Mobile Responsive */
+
+@media only screen and (max-width: 380px) {
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .home-link {
+        font-size: 12px;
+    }
+
+    .signup-left h1 {
+        font-size: 27px;
+    }
+
+    .signup-card {
+        padding: 20px 16px;
+    }
+
+    .benefit-box {
+        padding: 12px;
+    }
+
+}
